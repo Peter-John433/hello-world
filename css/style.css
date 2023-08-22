@@ -2,3 +2,20 @@ body{
     color: white;
     background-color: lightblue;
 }
+
+p{
+    background-color: green;
+    padding: 20px;
+    width: 450px;
+    height: auto;
+    margin: 10px auto;
+}
+@media screen and (max-width: 576px) {
+    p{
+        width: 200px;
+        height: auto;
+        background-color: red;
+        color: white;
+        text-align: center;
+    }
+}
